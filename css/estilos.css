@@ -1,3 +1,25 @@
-body{
 
+/* Agregando estilos Globales*/
+/* lo siguiente es para RESETEAR y evitar futuras complicaciones con el HTML*/
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: verdana, geneva, serif;
+}
+header{
+  /* izquierda derecha: 0 ; arriba y abajo 0*/
+  padding: 20px 0;
+}
+div.contenedor{
+/*ancho*/
+  width: 1200px;
+  margin: 0 auto;
 }
