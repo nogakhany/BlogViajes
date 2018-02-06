@@ -71,3 +71,22 @@ nav ul li:hover > ul{
 nav ul li:hover{
   background-color: rgba(0, 184, 228, 1);
 }
+/** CONTENIDO PRINCIPAL **/
+div.contenido::after{
+/** con esto limpiamos el FLOAT, este es el elemento padre**/
+  content: '';
+  display: block;
+  clear: both;
+
+}
+main{
+  width: 70%;
+  float: left;
+  padding-right: 40px;
+
+}
+aside{
+  float: right;
+  width: 30%;
+
+}
