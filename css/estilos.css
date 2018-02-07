@@ -85,8 +85,62 @@ main{
   padding-right: 40px;
 
 }
+/** ENTRADAS DE POST **/
+article{
+  margin-top: 30px;
+}
+article img{
+  float: left;;
+  /* tamaño de imagen*/
+  width: 300px;
+  /* un poco de separacion entre imagen y texto*/
+  margin-right: 30px;
+}
+/* parrafos*/
+article p{
+  line-height: 2;
+  text-align: justify;
+}
+h2{
+  color: #00b8e4;
+  /*espacio de separacion h2 e imagen: */
+  margin-bottom: 20px;
+}
+.boton{
+  background-color: #00b8e4;
+  padding: 10px 30px;
+  /* para una separacion entre texto y color*/
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/** SIDEBAR, barra lateral**/
 aside{
   float: right;
   width: 30%;
+  margin-top: 30px;
 
+}
+/* quitamos los puntos a los LI: */
+aside ul{
+  list-style: none;
+}
+aside ul li{
+  padding: 10px 0 10px 10px;
+}
+aside ul li:hover{
+  background-color: #00b8e4;
+  /** cambia el tipo de puntero del raton*/
+  cursor: pointer;
+}
+/** le quita los puntos y le asigna un color a las entradas: */
+aside ul li a{
+  color: #00b8e4;
+  text-decoration: none;
+}
+aside ul li:hover a{
+  color: #ffffff;
 }
